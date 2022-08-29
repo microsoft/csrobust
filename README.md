@@ -2,6 +2,10 @@
 
 This project contains example notebooks exhibiting confidence sequences that are robust, i.e., converge for observations with infinite variance.
 
+  * [Robust Mean Demo](csrobustmean.ipynb): The basic technique for covering the running conditional mean in a nonstationary environment.  Includes the use of approximate sufficient statistics to bound space and time complexity.
+  * [Off-Policy Quantile Demo](csnsopquantile.ipynb): Off-policy quantile identification functions can exhibit infinite variance (unlike the on-policy case).  In this case the importance weights are Pareto distributed with infinite variance: this might arise in a continuous action problem.
+  * [Expectile Demo](csnsexpectile.ipynb): Expectile identification functions can exhibit infinite variance.  In this case the observation is Pareto distributed.
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
