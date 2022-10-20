@@ -6,6 +6,11 @@ This project contains example notebooks exhibiting confidence sequences that are
   * [Off-Policy Quantile Demo](csnsopquantile.ipynb): Off-policy quantile identification functions can exhibit infinite variance (unlike the on-policy case).  In this case the importance weights are Pareto distributed with infinite variance: this might arise in a continuous action problem.
   * [Expectile Demo](csnsexpectile.ipynb): Expectile identification functions can exhibit infinite variance.  In this case the observation is Pareto distributed.
 
+## Key Papers
+
+  * This work on arxiv (check back later today ...)
+  * [Anytime-valid off-policy inference for contextual bandits](https://arxiv.org/abs/2210.10768): This paper contains important background material on anytime valid off policy inference.
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
