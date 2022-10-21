@@ -8,8 +8,8 @@ This project contains example notebooks exhibiting confidence sequences that are
 
 ## Key Papers
 
-  * This work on arxiv (check back later today ...)
-  * [Anytime-valid off-policy inference for contextual bandits](https://arxiv.org/abs/2210.10768): This paper contains important background material on anytime valid off policy inference.  This work essentially extends that paper to support adapting to an unknown moment $q \in (1, 2]$.
+  * [A lower confidence sequence for the changing mean of non-negative right heavy-tailed observations with bounded mean](https://arxiv.org/abs/2210.11133): describes the techniques in this repository.
+  * [Anytime-valid off-policy inference for contextual bandits](https://arxiv.org/abs/2210.10768): contains important background material on anytime valid off policy inference.  This repository essentially extends that paper to support adapting to an unknown moment $q \in (1, 2]$.
 
 ## Contributing
 
