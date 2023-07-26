@@ -8,8 +8,10 @@ This project contains example notebooks exhibiting confidence sequences that are
 
 ## Key Papers
 
-  * [A lower confidence sequence for the changing mean of non-negative right heavy-tailed observations with bounded mean](https://arxiv.org/abs/2210.11133): describes the techniques in this repository.
-  * [Anytime-valid off-policy inference for contextual bandits](https://arxiv.org/abs/2210.10768): contains important background material on anytime valid off policy inference.  This repository essentially extends that paper to support adapting to an unknown moment $q \in (1, 2]$.
+  * [Anytime-valid off-policy inference for contextual bandits](https://arxiv.org/abs/2210.10768): contains important background material on anytime valid off policy inference. 
+ The running counterfactual mean is covered even with unbounded importance weights; but finite variance is assumed.
+  * [A lower confidence sequence for the changing mean of non-negative right heavy-tailed observations with bounded mean](https://arxiv.org/abs/2210.11133): extends the previous paper to support adapting to an unknown moment $q \in (1, 2]$.
+  * [Time-uniform confidence bands for the CDF under nonstationarity](https://arxiv.org/abs/2302.14248): extends the previous two papers to support covering the entire counterfactual CDF rather than just the mean.
 
 ## Contributing
 
